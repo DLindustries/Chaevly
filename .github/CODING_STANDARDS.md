@@ -1,13 +1,13 @@
-# Project LiquidBounce Coding Standards
+# Project Chaevly Coding Standards
 
 We invite everyone to participate in the development of LiquidBounce by submitting pull requests and opening issues in
 this repository. However, we have to enforce certain standards to keep our code readable, consistent and easier to
 maintain.
 
 We kindly ask you to use [Kotlin](https://kotlinlang.org/) instead of Java for new code, if possible. In the long term,
-it is our goal to largely migrate LiquidBounce to Kotlin.
+it is better to largely migrate chavely to Kotlin.
 
-Contributors: https://github.com/CCBlueX/LiquidBounce/graphs/contributors
+Contributors: https://github.com/DLindustries/Chaevly/graphs/contributors
 
 ## General
 
@@ -43,22 +43,22 @@ of the file:
 
 ```kotlin
 /*
- * This file is part of LiquidBounce (https://github.com/CCBlueX/LiquidBounce)
+ * This file is part of Chaevly (https://github.com/DLindustries/Chaevly)
  *
- * Copyright (c) 2015 - 2023 CCBlueX
+ * Copyright (c) 2024 - 2024 DLindustries
  *
- * LiquidBounce is free software: you can redistribute it and/or modify
+ * Chaevly is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * LiquidBounce is distributed in the hope that it will be useful,
+ * Chaevly is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with LiquidBounce. If not, see <https://www.gnu.org/licenses/>.
+ * along with Chaevly. If not, see <https://www.gnu.org/licenses/>.
  */
 ```
 
@@ -75,24 +75,4 @@ You are recommended to use the following tags for bypasses:
 
 You aren't allowed to use any other tags.
 
-# Packages
 
-### Naming
-
-Our naming of packages follows the following format:
-
-* `country.company-name.product-name`
-
-*Example:*
-
-* `net.ccbluex.liquidbounce`
-
-If your code is self-contained and not designed exclusively for LiquidBounce, we may allow you to include it in a
-separate package outside `net.ccbluex.liquidbounce`. Please note that we have to decide on a case by case basis.
-
-*Example:*
-`net.vitox` instead of `net.ccbluex`
-
-Links:
-
-* [Java Package](https://en.wikipedia.org/wiki/Java_package "Wikipedia article").
