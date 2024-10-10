@@ -1,6 +1,6 @@
 <div align="center">
 <p>
-    <img width="400" src="https://raw.githubusercontent.com/Dlindustries/database/main/Chaevly/chaevly.svg">
+    <img width="300" src="https://raw.githubusercontent.com/Dlindustries/database/main/Chaevly/chaevly.svg">
 </p>
 
 [website](https://github.com/DLindustries/Chaevly) |

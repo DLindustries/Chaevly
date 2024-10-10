@@ -158,12 +158,12 @@ object ModuleRichPresence : Module("RichPresence", Category.CLIENT, state = true
             builder.setButtons(JsonArray().apply {
                 add(JsonObject().apply {
                     addProperty("label", "Download")
-                    addProperty("url", "https://liquidbounce.net/")
+                    addProperty("url", "https://github.com/DLindustries/Chaevly/releases")
                 })
 
                 add(JsonObject().apply {
                     addProperty("label", "GitHub")
-                    addProperty("url", "https://github.com/CCBlueX/LiquidBounce")
+                    addProperty("url", "https://github.com/DLindustries/Chaevly")
                 })
             })
 

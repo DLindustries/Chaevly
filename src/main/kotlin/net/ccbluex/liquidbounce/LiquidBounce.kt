@@ -80,13 +80,13 @@ object LiquidBounce : Listenable {
      *
      * WARNING: Please read the GNU General Public License
      */
-    const val CLIENT_NAME = "LiquidBounce"
-    const val CLIENT_AUTHOR = "CCBlueX"
-    const val CLIENT_CLOUD = "https://cloud.liquidbounce.net/LiquidBounce"
+    const val CLIENT_NAME = "Chaevly"
+    const val CLIENT_AUTHOR = "Duncan Lai"
+    const val CLIENT_CLOUD = "https://github.com/DLindustries/database/Chaevly"
 
     val clientVersion = gitInfo["git.build.version"]?.toString() ?: "unknown"
     val clientCommit = gitInfo["git.commit.id.abbrev"]?.let { "git-$it" } ?: "unknown"
-    val clientBranch = gitInfo["git.branch"]?.toString() ?: "nextgen"
+    val clientBranch = gitInfo["git.branch"]?.toString() ?: "ain"
 
     /**
      * Defines if the client is in development mode.
@@ -215,7 +215,7 @@ object LiquidBounce : Listenable {
 
             // Check for newest version
             if (updateAvailable) {
-                logger.info("Update available! Please download the latest version from https://liquidbounce.net/")
+                logger.info("Update available! Please download the latest version from Chaevly github repo")
             }
 
             runCatching {

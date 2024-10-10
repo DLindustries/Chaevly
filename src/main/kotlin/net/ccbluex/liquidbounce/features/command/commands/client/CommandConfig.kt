@@ -46,7 +46,7 @@ import kotlin.concurrent.thread
  */
 object CommandConfig {
 
-    private const val CONFIGS_URL = "https://github.com/CCBlueX/LiquidCloud/tree/main/LiquidBounce/settings/nextgen"
+    private const val CONFIGS_URL = "https://github.com/DLindustries/database/tree/main/Chaevly/settings/nextgen"
 
     fun createCommand(): Command {
         return CommandBuilder
