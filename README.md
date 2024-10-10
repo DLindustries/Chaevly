@@ -1,9 +1,10 @@
 <div align="center">
 <p>
-    <img width="400" src="https://raw.githubusercontent.com/DLindustries/database/main/Chaevly/chaevly.svg">
+    <img width="400" src="https://raw.githubusercontent.com/Dlindustries/database/main/Chaevly/chaevly.svg">
 </p>
 
-[YouTube](https://youtube.com/@quoly) |
+[website](https://github.com/DLindustries/Chaevly) |
+[YouTube](https://youtube.com/@quoly)
 
 </div>
 
@@ -37,33 +38,30 @@ nor legally binding.
   application.**
 - **Your modified application must also be licensed under the GPL**
 
-## Developing Chaevly
+## Setting up a Workspace
 
-Chaevly uses gradle to build the client. Install latest version of gradle onto your computer
-
-install Intellij IDEA Ultimate, or use the free community edition.
+Chaevly uses Gradle, to make sure that it is installed properly you can
+check [Gradle's website](https://gradle.org/install/).
 
 1. Clone the repository using `git clone --recurse-submodules https://github.com/DLindustries/Chaevly`.
-2. CD into the local repository - command `cd Chaevly`.
+2. CD into the local repository.
 3. Run `./gradlew genSources`.
-4. Open the folder in Intellij - feel free to recode the client.
-5. to build, simply run `./gradlew build`. or either create a run configuration for gradle with build command.
-6. enjoy Chaevly! :D
+4. Open the folder as a Gradle project in your preferred IDE.
+5. Run the client.
 
-## Additional Info
+## Additional libraries
 
 ### Mixins
 
 Mixins can be used to modify classes at runtime before they are loaded. Chaevly uses it to inject its code into the
-Minecraft client. Therefore Chaevly does not violate any of Mojang's copyrighted code. If you want to learn more about it, check out
+Minecraft client. This way, none of Mojang's copyrighted code is shipped. If you want to learn more about it, check out
 its [Documentation](https://docs.spongepowered.org/5.1.0/en/plugin/internals/mixins.html).
 
 ## Contributing
 
 We appreciate contributions. So if you want to support us, feel free to make changes to Chaevly's source code and
-submit a pull request. TY
-ps please spread the message about this client
+submit a pull request.
 
 ## Stats
 
-![Alt](https://repobeats.axiom.co/api/embed/63b90c11eafcb6a769c328d8a7f9afb5556dd3ca.svg "Repobeats analytics image")"Repobeats analytics image")
+![Alt](https://repobeats.axiom.co/api/embed/63b90c11eafcb6a769c328d8a7f9afb5556dd3ca.svg "Repobeats analytics image")
