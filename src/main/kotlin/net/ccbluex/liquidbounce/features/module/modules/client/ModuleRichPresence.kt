@@ -59,7 +59,7 @@ val ipcConfiguration by lazy {
 object ModuleRichPresence : Module("RichPresence", Category.CLIENT, state = true, hide = true,
     aliases = arrayOf("DiscordPresence")) {
 
-    private val detailsText by text("Details", "Nextgen v%clientVersion% by %clientAuthor%")
+    private val detailsText by text("Details", "Using Chaevly v%clientVersion% by %clientAuthor%")
     private val stateText by text("State", "%enabledModules% of %totalModules% modules enabled")
 
     private val largeImageText by text("LargeImage", "Online with %protocol%")
