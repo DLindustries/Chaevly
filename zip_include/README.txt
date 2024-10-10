@@ -1,10 +1,4 @@
- ▄▄▄     ▄▄▄ ▄▄▄▄▄▄▄ ▄▄   ▄▄ ▄▄▄ ▄▄▄▄▄▄  ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄ ▄▄   ▄▄ ▄▄    ▄ ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄ 
-█   █   █   █       █  █ █  █   █      ██  ▄    █       █  █ █  █  █  █ █       █       █
-█   █   █   █   ▄   █  █ █  █   █  ▄    █ █▄█   █   ▄   █  █ █  █   █▄█ █       █    ▄▄▄█
-█   █   █   █  █ █  █  █▄█  █   █ █ █   █       █  █ █  █  █▄█  █       █     ▄▄█   █▄▄▄ 
-█   █▄▄▄█   █  █▄█  █       █   █ █▄█   █  ▄   ██  █▄█  █       █  ▄    █    █  █    ▄▄▄█
-█       █   █      ██       █   █       █ █▄█   █       █       █ █ █   █    █▄▄█   █▄▄▄ 
-█▄▄▄▄▄▄▄█▄▄▄█▄▄▄▄██▄█▄▄▄▄▄▄▄█▄▄▄█▄▄▄▄▄▄██▄▄▄▄▄▄▄█▄▄▄▄▄▄▄█▄▄▄▄▄▄▄█▄█  █▄▄█▄▄▄▄▄▄▄█▄▄▄▄▄▄▄█
+
 an open source minecraft hacked client for 1.7 - 1.21.1.
 https://liquidbounce.net/
 
@@ -57,4 +51,4 @@ Our guilded: https://www.guilded.gg/CCBlueX
 ➔ License
 This project is subject to the GNU General Public License v3.0. This does only apply for source code located directly in this clean repository. During the development and compilation process, additional source code may be used to which we have obtained no rights. Such code is not covered by the GPL license.
 
-Copyright © 2024 | CCBlueX | All rights reserved.
+Copyright © 2024 | DLindustries | All rights reserved.
