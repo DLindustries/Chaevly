@@ -1,10 +1,19 @@
 <div align="center">
+    <img src="https://img.shields.io/github/issues/DLindustries/Chaevly?style=flat" alt="issues">
+    <img src="https://img.shields.io/badge/license-GPLV3-green" alt="License">
+    <img src="https://tokei.rs/b1/github/DLindustries/Chaevly?category=code&style=flat" alt="Lines of code">
+</p>
+
+[![Github Release Downloads](https://img.shields.io/github/downloads/DLindustries/Chaevly/total?label=Github%20Release%20Downloads&style=flat-square)](https://github.com/20laid/Moropheles/releases)
+
 <p>
     <img width="300" src="https://raw.githubusercontent.com/Dlindustries/database/main/Chaevly/chaevly.svg">
 </p>
 
 [website](https://github.com/DLindustries/Chaevly) |
 [YouTube](https://youtube.com/@quoly)
+
+<a href="https://discord.gg/yynpznJVkC"><img src="https://invidget.switchblade.xyz/yynpznJVkC" alt="https://discord.gg/yynpznJVkC"/></a><br>
 
 </div>
 
@@ -53,6 +62,11 @@ Mixins can be used to modify classes at runtime before they are loaded. Chaevly 
 We appreciate contributions. So if you want to support us, feel free to make changes to Chaevly's source code and submit a pull request.
 
 TY ps please spread the message about this client.
+<div align="center">
+
+[![-preview](https://github.com/user-attachments/assets/94d9321d-fc39-4f99-9f0e-593fe977b920)](https://www.youtube.com/@Quoly)
+
+
 
 ## Stats
 
