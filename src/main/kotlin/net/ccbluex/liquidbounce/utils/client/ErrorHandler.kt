@@ -40,7 +40,7 @@ object ErrorHandler {
         logger.error("Fatal error", error)
 
         val logPath = mc.runDirectory.resolve("logs").resolve("latest.log").absolutePath
-        val message = """LiquidBounce Nextgen has encountered an error!
+        val message = """Chaevly client has encountered an error!
                     |Try restarting the client.
                     |Please report this issue to the developers on GitHub if the error keeps occuring.
                     |
@@ -56,7 +56,7 @@ object ErrorHandler {
                     |$logPath""".trimMargin()
 
         TinyFileDialogs.tinyfd_messageBox(
-            "LiquidBounce Nextgen",
+            "Chaevly client",
             message.replace("\"", "").replace("'", ""),
             "ok",
             "error",
@@ -64,7 +64,7 @@ object ErrorHandler {
         )
 
         // Open GitHub issue
-        browseUrl("https://github.com/CCBlueX/LiquidBounce/issues")
+        browseUrl("https://github.com/DLindustries/Chaevly/issues")
 
         exitProcess(1)
     }

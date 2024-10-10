@@ -82,7 +82,8 @@ object LiquidBounce : Listenable {
      */
     const val CLIENT_NAME = "Chaevly"
     const val CLIENT_AUTHOR = "Duncan Lai"
-    const val CLIENT_CLOUD = "https://github.com/DLindustries/database/Chaevly"
+    const val CLIENT_CLOUD = "https://raw.githubusercontent.com/DLindustries/database/main/Chaevly/"
+    const val CLIENT_CLOUDFONT = "https://raw.githubusercontent.com/DLindustries/database/main/Chaevly/"
 
     val clientVersion = gitInfo["git.build.version"]?.toString() ?: "unknown"
     val clientCommit = gitInfo["git.commit.id.abbrev"]?.let { "git-$it" } ?: "unknown"

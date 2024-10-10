@@ -112,7 +112,7 @@ object Fonts {
 
             val fontZip = fontFolder.resolve("font.zip")
             logger.info("Downloading font $name to $fontZip")
-            download("${LiquidBounce.CLIENT_CLOUD}/fonts/$name.zip", fontZip)
+            download("${LiquidBounce.CLIENT_CLOUDFONT}/fonts/$name.zip", fontZip)
 
             logger.info("Extracting font $name to $fontFolder")
             extractZip(fontZip, fontFolder)
