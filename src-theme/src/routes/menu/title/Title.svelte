@@ -25,8 +25,8 @@
 
             if (update.updateAvailable) {
                 notification.set({
-                    title: `LiquidBounce ${update.newestVersion?.clientVersion} has been released!`,
-                    message: `Download it from liquidbounce.net!`,
+                    title: `Chaevly ${update.newestVersion?.clientVersion} has been released!`,
+                    message: `Download it from https://github.com/DLindustries/Chaevly/releases !`,
                     error: false,
                     delay: 99999999
                 });
@@ -61,7 +61,7 @@
                     <ChildButton title="Realms" icon="realms" {parentHovered}
                                  on:click={() => openScreen("multiplayer_realms")}/>
                 </MainButton>
-                <MainButton title="LiquidBounce" icon="liquidbounce" on:click={toggleButtons} index={2}/>
+                <MainButton title="Chaevly settings" icon="liquidbounce" on:click={toggleButtons} index={2}/>
                 <MainButton title="Options" icon="options" on:click={() => openScreen("options")} index={3}/>
             {:else if clientButtonsShown}
                 <MainButton title="Proxy Manager" icon="proxymanager" on:click={() => openScreen("proxymanager")}
@@ -74,21 +74,18 @@
 
         <div class="additional-buttons" transition:fly|global={{duration: 700, y: 100}}>
             <ButtonContainer>
-                <IconTextButton icon="icon-exit.svg" title="Exit" on:click={exitClient}/>
-                <IconTextButton icon="icon-change-background.svg" title="Toggle Shader"
+                <IconTextButton icon="icon-exit.svg" title="Leave Chaevly" on:click={exitClient}/>
+                <IconTextButton icon="icon-change-background.svg" title="Animate background"
                                 on:click={toggleBackgroundShaderEnabled}/>
             </ButtonContainer>
         </div>
 
         <div class="social-buttons" transition:fly|global={{duration: 700, y: 100}}>
             <ButtonContainer>
-                <IconButton title="Forum" icon="nodebb" on:click={() => browse("MAINTAINER_FORUM")}/>
                 <IconButton title="GitHub" icon="github" on:click={() => browse("MAINTAINER_GITHUB")}/>
-                <IconButton title="Guilded" icon="guilded" on:click={() => browse("MAINTAINER_GUILDED")}/>
                 <IconButton title="Discord" icon="discord" on:click={() => browse("MAINTAINER_DISCORD")}/>
-                <IconButton title="Twitter" icon="twitter" on:click={() => browse("MAINTAINER_TWITTER")}/>
                 <IconButton title="YouTube" icon="youtube" on:click={() => browse("MAINTAINER_YOUTUBE")}/>
-                <IconTextButton title="liquidbounce.net" icon="icon-liquidbounce.net.svg"
+                <IconTextButton title="Chaevly repository" icon="icon-liquidbounce.net.svg"
                                 on:click={() => browse("CLIENT_WEBSITE")}/>
             </ButtonContainer>
         </div>
